@@ -83,10 +83,10 @@
                         Console.WriteLine($"You both received {temp[0]} points");
                     }
 
-                    Console.WriteLine("\nStop Playing? (N)");
+                    Console.WriteLine("\nStop Playing? (Y)");
                     string yes = Console.ReadLine().ToLower();
 
-                    if (yes == "n")
+                    if (yes == "y")
                     {
                         break;
                     }
